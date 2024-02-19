@@ -7,14 +7,15 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "import.meta.env.REACT_APP_FIREBASE_API_KEY",
-  authDomain: "import.meta.env.REACT_APP_FIREBASE_AUTH_DOMAIN",
-  projectId: "import.meta.env.REACT_APP_FIREBASE_PROJECT_ID",
-  storageBucket: "import.meta.env.REACT_APP_FIREBASE_STORAGE_BUCKET",
-  messagingSenderId: "import.meta.env.REACT_APP_MESSAGING_SENDER",
-  appId: "import.meta.env.REACT_APP_APP_ID",
+  apiKey: "AIzaSyDpLSHdsLBpUFYsVPefAdifbAABKx_ZpYE",
+  authDomain: "netflix-react-tailwind-ugur.firebaseapp.com",
+  projectId: "netflix-react-tailwind-ugur",
+  storageBucket: "netflix-react-tailwind-ugur.appspot.com",
+  messagingSenderId: "903301810376",
+  appId: "1:903301810376:web:7314bbb73e47f9728bfdfd",
 };
 
 // Initialize Firebase
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
+export default app;
